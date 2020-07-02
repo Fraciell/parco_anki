@@ -3,7 +3,7 @@ What is the best known worst case sequential complexity for matrix-vector multip
 What is the best known worst case sequential complexity for matrix-matrix multiplication ?;\(O (n^3)\);performance objectives complexity
 What is the best known worst case sequential complexity for comparison-based sorting ?;\(\Theta (n\ log\ n)\);performance objectives complexity
 What is the best known worst case sequential complexity for maximum finding in an unordered sequence (or sum of elements in array, all prefix-sums in an array) ?;\(\Theta (n)\);performance objectives complexity
-What is the best known worst case sequential complexity for merging two ordered sequences of length n and m (or graph search (DFS, BFS)) ?;\(O (n\ log\ n + m)\);performance objectives complexity
+What is the best known worst case sequential complexity for merging two ordered sequences of length n and m (or graph search (DFS, BFS)) ?;\(O n + m\);performance objectives complexity
 The absolute speed-up of a parallel algorithm Par over a sequential algorithm Seq is defined as:;The ratio of sequential to parallel runnning time \[S_p(n)=\frac{T_{\text{seq}}(n)}{T_{\text{par}}(p,n)}\] with input size \(O(n)\) and p processor-cores.;performance objectives absolute speed-up
 The best possible parallel algorithm Par for the problem solved by sequential algorithm Seq cannot run faster than:;\(T_{\text{seq}}(n) / p\);performance objectives speed-up
 Is it sensible to always use all processor-cores available for every parallel algorithm Par?;No, putting in more processor-cores than there is actual work to be done makes no sense, and some processors would sit idle.;performance objectives speed-up processor-cores
